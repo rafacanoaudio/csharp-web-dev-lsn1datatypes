@@ -6,7 +6,7 @@ namespace HelloMethods
     {
         public static void Main(string[] args)
         {
-            string message = Message.GetMessage("sp");
+            string message = Message.GetMessage("");
             Console.WriteLine(message);
             Console.ReadLine();
         }
